@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+:root {
+    --primary-color: #e63e3d; 
+    --secondary-color: #faf4e6;
+    --accent-color: #2a2530;
+    --text-dark: #333; /* This is the text color */
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica,sans-serif;
+    --secondary-font: Mooli, san-serif;
+}
+body {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+}
+
+.wireframes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wireframes img {
+    width: 60%;  
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#mobile-page {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#mobile-page img {
+    width: 100%;
+    width: auto;
+    height: 600px;
+    justify-content: left;
+}
+
